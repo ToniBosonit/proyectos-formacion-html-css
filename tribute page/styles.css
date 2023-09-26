@@ -1,0 +1,40 @@
+body{
+    background-color: #eeeeee;
+  }
+  #main{
+    padding: 10px;
+  }
+  #title, p{
+    text-align: center;
+  }
+  #image{
+    max-width: 100%;
+    display: block;
+  }
+  #img-caption{
+    display: block;
+    padding: 10px;
+    margin: 15px 0 5px 0;
+    max-width: 100%;
+  }
+  #img-div{
+    padding: 20px 70px;
+    background-color: white;
+  }
+  #headline{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px
+  }
+  
+  ul > li{
+    width: 90%;
+    margin: 30px auto;
+  }
+  ul{
+    text-align: justify;
+  }
+  blockquote > p{
+    text-align: left;
+    margin-top: 50px
+  }

@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #eeeeee;
+  }
+  #header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+  .container-img{
+    width: 50%
+  }
+  #header-img{
+    width: 60%;
+    padding: 1rem;
+  }
+  #nav-bar{
+    display: flex;
+    
+  }
+  ul{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+    
+  }
+  li{
+    margin: 30px;
+  }
+  nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Lato', sans-serif;
+  }
+  #form{
+    text-align: center;
+  }
+  #email{
+    padding: 3px;
+  }
+  [type="submit"]{
+    margin-top: 15px;
+    padding: 6px 24px;
+    background-color: #f1c40f;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  [type="submit"]:hover{
+    background-color: #ff8c00;
+  }
+  
+  .container{
+  
+    padding: 1.1rem;
+    display: flex;
+  }
+  .icon img{
+    width: 4rem;
+    margin-right: 80px;
+  }
+  .desc{
+    padding-top: 6px;
+  }
+  #how-it-works{
+    margin: 4rem 0;
+    text-align: center;
+  }
+  #pricing{
+    display: flex;
+    justify-content: center;
+  }
+  .instrument{
+    border: 1px solid black;
+    width: 30%;
+    height: 17rem;
+    text-align: center;
+    margin-top: 20px;
+    margin: 10px;
+  }
+  h4{
+    background-color: #d0d0d5;
+    padding: 10px
+  }
+  h3{
+    margin: 15px 0;
+  }
+  #pricing p{
+    margin: 10px
+  }
+  button{
+    background-color: #f1c40f;
+    border: none;
+    padding: 8px 18px;
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #ff8c00;
+  }
+  
+  @media only screen and(max-width: 750px){
+    .instrument{
+      display: inline-block;
+      width: 100%;
+    }
+  }
+  
+  
+  
+  
